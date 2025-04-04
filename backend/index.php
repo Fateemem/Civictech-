@@ -1,3 +1,6 @@
 <?php
-echo "Backend is set up!";
+header("Content-Type: application/json");
+
+$response = ["message" => "Backend API is live!"];
+echo json_encode($response);
 ?>
